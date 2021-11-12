@@ -1,4 +1,5 @@
 <%= simple_form_for(@list) do |f| %>
 <%= f.input :name, label: "List name:" %>
+<%= f.input :photo, as: :file, label: "Add a picture:" %>
 <%= f.submit %>
 <% end %>
